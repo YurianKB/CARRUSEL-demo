@@ -1,0 +1,46 @@
+h1{
+  text-align: center;
+}
+
+header{
+  background-color: #000;
+}
+
+body{
+  background-color: #FFFCBE;
+}
+
+.carousel-content {
+	display: none;
+}
+
+.carousel-content.active {
+	display: block;
+}
+
+.carousel {
+position: relative;
+overflow: hidden;
+width: 450px;
+height: 650px;
+margin: 100px auto;
+padding: 0;
+}
+
+.carousel img{
+  width: 450px;
+  height: 650px;
+  min-height:300px;
+  margin:0;
+  padding:0;
+  border:0;
+}
+
+.controls{
+  padding-left: 458px;
+  margin-top: -110px;
+}
+
+.previous{
+  padding-top: 50px;
+}

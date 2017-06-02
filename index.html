@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Carrusel</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css" media="screen,projection"/>
+	<link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+
+  <h1>Carrusel</h1>
+
+	<div class="carousel">
+		<div data-slide="0" class="carousel-content active">
+			<img src="assets/image/image1.jpg" alt="Imagen 1">
+		</div>
+		<div data-slide="1" class="carousel-content ">
+			<img src="assets/image/image2.jpg" alt="Imagen 2">
+		</div>
+		<div data-slide="2" class="carousel-content ">
+			<img src="assets/image/image3.jpg" alt="Imagen 3">
+		</div>
+		<div data-slide="3" class="carousel-content">
+			<img src="assets/image/image4.jpg" alt="Imagen 4">
+		</div>
+	</div>
+	<div class="controls">
+		<a href="#" class="previous"><i class="material-icons little">previous</i></a>
+		<button type="button" data-target="0" class="control btn-floating btn-large brown"><i class="material-icons">1</i></button>
+		<button type="button" data-target="1" class="control control btn-floating btn-large brown"><i class="material-icons">2</i></button>
+		<button type="button" data-target="2" class="control control btn-floating btn-large brown"><i class="material-icons">3</i></button>
+		<button type="button" data-target="3" class="control control btn-floating btn-large brown"><i class="material-icons">4</i></button>
+		<a href="#" class="next"><i class="material-icons little">next</i></a>
+	</div>
+	<script src="assets/js/jquery-3.2.1.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
